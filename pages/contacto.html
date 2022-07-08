@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Fungidelic</title>
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="shortcut icon" href="../imagenes/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="left-header">
+            <a href ="../index.html"><img class="logo" src="../imagenes/logo.png"></a>
+        </div>
+        <div class="right-header">
+            <div class="right-upper-header">
+                    <nav class="nav">
+                        <ul>
+                            <li><a class="nav__enlace" href="../index.html">Inicio</a></li>
+                            <li><a class="nav__enlace" href="../pages/nosotros.html">Nosotros</a></li>
+                            <li><a class="nav__enlace" href="../pages/productos.html">Productos</a></li>
+                            <li><a class="nav__enlace" href="../pages/ofertas.html">Ofertas</a></li>
+                            <li><a class="nav__enlace" href="../pages/contacto.html">Contacto</a></li>
+                            <li><div class="nav__iconoproductos"><a href="../pages/productos.html"> <img src="../imagenes/shop.png"/></a></div></li>
+                        </ul>           
+                    </nav>
+                    <div class="boton-desplegable"><img class="boton-desplegable__imagen"src="../imagenes/botondesplegable.png"></div>
+            </div>
+            <div class="right-lower-header">
+                <div class="search">
+                <input class="search__input" type="search" id="busqueda" name="q" placeholder="Buscar"/>
+                <img class="search__iconobusqueda" src="../imagenes/lupa.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="contacto__main">
+        <div class="contacto__main__left">
+            <div>
+                <h2 class="contacto__titulo">CONTACTO</h2>
+            </div>
+            <div class="contacto__items">
+                <ul>
+                    <li class="contacto__item"><p class="contacto__leyenda">Contactános por cualquiera de nuestros canales:</p>
+                    </li>
+                    <div class="contacto__canales" >
+                    <li class="contacto__item">
+                        <div class="contacto__wsp">
+                            <img src="../imagenes/wsp.png" alt="">
+                            <div class="wsp__telefono">
+                            <h3>+54 9 11 3142-295</h3></div>
+                        </div>
+                    </li>
+                    <li class="contacto__item"><div class="contacto__mail">
+                        <img src="../imagenes/mail.png" alt="">
+                        <div class="mail">
+                        <h3 class="contacto__mail_direccion">fungidelic.ar@gmail.com</h3>
+                        </div>
+                    </li>
+                    <li class="contacto__item">
+                        <ul class="contacto__redes">    
+                            <li><a href="https://www.facebook.com/fungidelic.ar"><img src="../imagenes/fb.png"></a></li>
+                            <li><a href="https://www.instagram.com/accounts/login/?next=/Fungidelic.com.ar/"><img src="../imagenes/ig.png"></a></li>
+                            <li><a href="https://www.youtube.com/channel/UC17POExoGN2J18_R2dxZjIg"><img src="../imagenes/youtube.png"></a></li>
+                            <li><a href="https://www.tiktok.com/@fungidelic.ar"><img src="../imagenes/tiktok.png"></a></li>
+                        </ul>    
+                    </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contacto__main__right">
+            <form class="formulario" action="">
+            <fieldset class="fieldset">
+                <div class="formulario__item">
+                    <label class="label" for="nombre">Nombre</label>
+                    <input class="input" type="text" name="nombre" id="nombre" required>   
+                </div>
+                <div class="formulario__item">    
+                    <label  class="label" for="email">Email</label>
+                    <input class="input" type="email" name="email"id="email"  required>
+                </div>
+                <div class="formulario__item">
+                    <label class="label"  for="teléfono">Teléfono</label>
+                    <input class="input" type="number" name="teléfono"id="teléfono">
+                </div>
+                <div class="formulario__item">
+                    <label class="label"  for="mensaje">Mensaje</label>
+                    <textarea class="input__mensaje" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>  
+                </div>
+                <div class="flex__submit">    
+                    <input class="submit" type="submit">
+                </div>   
+                </fieldset>
+            </form>
+        </div>
+    </main>
+      
+    <footer class="footer">
+        <div class="upper-footer">
+            <ul class="upper__footer__lista">
+                <li class="upper__footer__item">
+                        <img class="upper__footer__imagen" src="../imagenes/envios.png" alt="">
+                        <div class="upper__footer__leyenda">
+                            <h3>Enviamos tu compra</h3>
+                            <h4>Entregas a todo el país</h4>
+                        </div>
+                </li>
+                <li class="upper__footer__item">
+                        <img class="upper__footer__imagen" src="../imagenes/card.png" alt="">
+                        <div class="upper__footer__leyenda">
+                            <h3>Pagá como quieras</h3>
+                            <h4>Tarjetas de crédito o débito</h4>
+                        </div>
+                </li>
+                <li class="upper__footer__item">
+                        <img class="upper__footer__imagen" class="upper__footer__imagen__lock" src="../imagenes/lock.png" alt="">
+                        <div class="upper__footer__leyenda">
+                            <h3>Compra con seguridad</h3>
+                            <h4>Tus datos siempre protegidos</h4>
+                        </div>
+                </li>
+            </ul>
+        </div>
+        <div class="lower-footer">
+            <div class="left-lower-footer">
+            <nav class="nav">
+                <ul>    
+                    <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="../pages/productos.html">Productos</a></li>
+                    <li><a href="../pages/ofertas.html">Oferta</a></li>
+                    <li><a href="../pages/contacto.html">Contacto</a></li>
+                </ul>   
+            </nav>   
+            </div> 
+            
+            <div class="center-lower-footer">
+                <ul>
+                    <li>
+                    <div class="center-lower-footer__teléfono"> 
+                    <div class="center-lower-footer__imagen"><img src="../imagenes/wspblanco.png" alt=""></div>
+                    <h4>+54 9 11 3142-2951</h4>
+                    </div>
+                    </li>
+                <li>
+                    <h5>® COPYRIGHT FUNGIDELIC.AR - 2022 Todos los derechos reservados</h5>
+                </li>
+                </ul>  
+            </div>
+
+            <div class="right-lower-footer">   
+                <nav class="redes">
+                    <ul>    
+                        <li><a href="https://www.facebook.com/fungidelic.ar"><img src="../imagenes/fbblanco.png"/></a></li>
+                        <li><a href="https://www.instagram.com/accounts/login/?next=/Fungidelic.com.ar/"><img src="../imagenes/igblanco.png"/></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC17POExoGN2J18_R2dxZjIg"><img src="../imagenes/youtubeblanco.png"/></a></li>
+                        <li><a href="https://www.tiktok.com/@fungidelic.ar"><img src="../imagenes/tiktokblanco.png"/></a></li>
+                    </ul>    
+                </nav>
+            </div> 
+        </div>   
+    </footer>
+     
+     
+</body>
+</html>
