@@ -366,6 +366,7 @@ width: 260px;
 .nosotros__main__titulo{
     color:#C70A80;
     padding: 3rem;
+    font-size: 30px;
     
 }
 
@@ -383,6 +384,7 @@ width: 260px;
 .nosotros__main__atributos{
     padding-top: 3rem;
     font-weight: 600;
+    color:#590696;
     
 }
 
@@ -637,7 +639,8 @@ width: 260px;
 .fieldset{
 padding:0px 20px 20px 20px;
 border-radius: 20px;
-background-color:#ca4396; 
+background-color: #590696; 
+background-image: linear-gradient(135deg, #590696 0%, #c70a80 62%);
 margin-right: 4rem;
 }
 
@@ -651,9 +654,10 @@ margin-right: 4rem;
     margin-top: 20px;
     height: 30px;
     width: 60px;
+    font-weight: 600;
     border-color: white;
-    color: white;
-    background-color:#C70A80;
+    color: #C70A80;
+    background-color:white;
     border-radius: 5px;
     cursor: pointer;
    
@@ -663,6 +667,16 @@ margin-right: 4rem;
     box-shadow: 1px 1px white;
     transition: 0.3s;
 }
+
+.submit:focus{
+    box-shadow: 1px 1px white;
+    transition: 0.3s;
+    background-color:#C70A80;
+    color: white;
+    
+}
+
+
 
 
 @media (max-width: 1360px){
