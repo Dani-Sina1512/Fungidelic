@@ -7,64 +7,80 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <title>Fungidelic</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos.css">
     <link rel="shortcut icon" href="../imagenes/favicon.png" type="image/x-icon">
 </head>
-<body>
+<body class="nosotros__body">
     <header class="header">
         <div class="left-header">
-            <a href ="../index.html"><img class="logo" src="../imagenes/logo.png"></a>
+            <a href ="../index.html"><img class="logo animate__animated animate__bounce" src="../imagenes/logo.png"></a>
         </div>
         <div class="right-header">
-        <div class="right-upper-header">
-                 <nav class="nav">
-                <ul>
-                    <li><a class="nav__enlace" href="../index.html">Inicio</a></li>
-                    <li><a class="nav__enlace" href="../pages/nosotros.html">Nosotros</a></li>
-                    <li><a class="nav__enlace" href="../pages/productos.html">Productos</a></li>
-                    <li><a class="nav__enlace" href="../pages/ofertas.html">Ofertas</a></li>
-                    <li><a class="nav__enlace" href="../pages/contacto.html">Contacto</a></li>
-                    <li><div class="nav__iconoproductos"><a href="../pages/productos.html"> <img src="../imagenes/shop.png"/></a></div></li>
-                </ul>           
-            </nav>
-            <div class="boton-desplegable"><img class="boton-desplegable__imagen"src="../imagenes/botondesplegable.png"></div>
-        </div>
-        <div class="right-lower-header">
-            <div class="search">
-                <input class="search__input" type="search" id="busqueda" name="q" placeholder="Buscar"/>
-                <img class="search__iconobusqueda" src="../imagenes/lupa.png" alt="">
-            </div>
-            
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/ofertas.html">Ofertas</a>
+                      </li> 
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                      </li> 
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
         </div>
       </header>
 
     <main class="nosotros__main">
         <h2 class="nosotros__main__titulo animate__animated animate__backInLeft">¿Quiénes somos?</h2>
-            <h3 class="nosotros__main__subtitulo">SOMOS FUNGIDELIC, UNA COMUNIDAD DE CULTIVADORXS TRABAJANDO PARA VOS.</h3>
-            <p class="nosotros__main__descripcion">
+        <h3 class="nosotros__main__subtitulo">SOMOS FUNGIDELIC, UNA COMUNIDAD DE CULTIVADORXS TRABAJANDO PARA VOS.</h3>
+        <p class="nosotros__main__descripcion">
                 Somos partidiarios del autocultivo sustentable y natural de setas comestibles, sea para fines medicinales, recreativos o culinarios.
                 Aquí podrás encontrar todos los elementos; esporas, insumos, kits de cultivo e información necesarios para tu propia producción fungi.
-            </p>
+        </p>
             
-            <ul>
+    </main>
+
+    <section class="nosotros__section">
+        <ul>
             <li>
-                <p class="nosotros__main__atributos">
+                <p class="nosotros__section__atributos">
                 Misión : Prestar servicios de calidad generando excelentes relaciones con todos los actores involucrados en el proceso.
                 </p>
             </li>    
             <li>  
-                <p class="nosotros__main__atributos"> 
+                <p class="nosotros__section__atributos"> 
                 Visión : Tienda lider en el mercado latinoamericano valorada por la gran satifaccion que genera en cada cliente.
                 </p>
             </li> 
             <li>
-                <p class="nosotros__main__atributos">
+                <p class="nosotros__section__atributos">
                 Valores : Honestidad, Confianza, Respeto, Esfuerzo, Amistad, Libertad, Amor, Paz.
                 </p>
             </li> 
         </ul>
-        </p>
-    </main>
+    </section>  
 
     <footer class="footer">
         <div class="upper-footer">
@@ -72,22 +88,22 @@
                 <li class="upper__footer__item">
                         <img class="upper__footer__imagen" src="../imagenes/envios.png" alt="">
                         <div class="upper__footer__leyenda">
-                            <h3>Enviamos tu compra</h3>
-                            <h4>Entregas a todo el país</h4>
+                            <h4>Enviamos tu compra</h4>
+                            <h5>Entregas a todo el país</h5>
                         </div>
                 </li>
                 <li class="upper__footer__item">
                         <img class="upper__footer__imagen" src="../imagenes/card.png" alt="">
                         <div class="upper__footer__leyenda">
-                            <h3>Pagá como quieras</h3>
-                            <h4>Tarjetas de crédito o débito</h4>
+                            <h4>Pagá como quieras</h4>
+                            <h5>Tarjetas de crédito o débito</h5>
                         </div>
                 </li>
                 <li class="upper__footer__item">
                         <img class="upper__footer__imagen" class="upper__footer__imagen__lock" src="../imagenes/lock.png" alt="">
                         <div class="upper__footer__leyenda">
-                            <h3>Compra con seguridad</h3>
-                            <h4>Tus datos siempre protegidos</h4>
+                            <h4>Compra con seguridad</h4>
+                            <h5>Tus datos siempre protegidos</h5>
                         </div>
                 </li>
             </ul>
@@ -109,11 +125,11 @@
                     <li>
                     <div class="center-lower-footer__teléfono"> 
                     <div class="center-lower-footer__imagen"><img src="../imagenes/wspblanco.png" alt=""></div>
-                    <h4>+54 9 11 3142-2951</h4>
+                    <h5>+54 9 11 3142-2951</h5>
                     </div>
                     </li>
                 <li>
-                    <h5>® COPYRIGHT FUNGIDELIC.AR - 2022 Todos los derechos reservados</h5>
+                    <h6>® COPYRIGHT FUNGIDELIC.AR - 2022 Todos los derechos reservados</h6>
                 </li>
                 </ul>  
             </div>
@@ -130,7 +146,7 @@
             </div> 
         </div>   
     </footer>
-     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>         
     
 </body>
 </html>
