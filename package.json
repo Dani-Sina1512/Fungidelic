@@ -1,0 +1,19 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "<h1>Proyecto final Coderhouse</h1>\r <p>Esta es una página para una pyme de venta de productos de autocultivo de hongos</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dani-Sina1512/Fungidelic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dani-Sina1512/Fungidelic/issues"
+  },
+  "homepage": "https://github.com/Dani-Sina1512/Fungidelic#readme"
+}
