@@ -1,0 +1,93 @@
+
+.contacto__main {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+      &__left{
+        max-width: max-content; }
+      
+      .contacto__titulo {
+        font-size: $font-size-title;
+        color: $color-primary;
+        padding: 40px 0px 0px 30px; }
+  
+      .contacto__items {
+          margin-top: 30px;
+          display: flex;
+          justify-content: space-around; 
+          align-items: flex-start;
+  
+          .contacto__item {
+            list-style: none;
+            display: flex;
+            margin-top: 20px;
+  
+            .contacto__leyenda {
+              color: $color-primary;
+              font-size: $font-small; }
+  
+            
+            .wsp__telefono {
+            padding-top: 5px;
+            padding-left: 10px;
+            height: 20px; 
+            font-size: $font-small}
+  
+            .contacto__mail {
+              display: flex;
+              height: 30px; }
+            
+            .contacto__mail__direccion {
+              padding-top: 20px;
+              font-size: $font-small; }
+            
+            
+            .contacto__redes {
+              display: flex;
+              align-items:center;
+              margin-top: 20px; }
+            
+            .contacto__redes li {
+              list-style: none;
+              padding-left: 10px; }
+            
+            }
+  
+        }
+  
+  }
+  
+  
+  .contacto__main__right {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+      .text-center {
+      margin: 20px;
+      border: 1px solid $color-accent !important;
+      background-color: $color-accent !important;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: fit-content; }
+  
+      #defaultContactFormName {
+      width: 300px; }
+  
+      #defaultContactFormEmail {
+      width: 300px; }
+  
+      #exampleFormControlTextarea1 {
+      width: 300px; }
+  
+      #btsubmit {
+      background-color: $color-neutralLight !important;
+      border-color: $color-primary !important;
+      color:  $color-primary !important;
+  
+        &:hover {
+        background-color: $color-secondary; }
+        }
+    }
+  

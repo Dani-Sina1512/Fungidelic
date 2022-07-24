@@ -1,0 +1,31 @@
+.nosotros__main {
+    text-align: center;
+      &__titulo {
+        color: $color-accent;
+        padding: 3rem;
+        font-size: $font-size-title;
+        font-weight: 600; }
+      &__subtitulo {
+          font-size: $font-medium;
+          color: $color-primary;
+          padding-bottom: 2rem; }
+      &__descripcion {
+        font-size: $font-small;
+        padding: 1rem;
+        color: $color-primary;
+        font-weight: 600;
+        line-height: 50px;
+        }
+      }
+  
+  .nosotros__section {
+    padding-bottom: 4rem;
+    text-align: center;
+      &__atributos {
+        font-size: $font-small;
+        padding-top: 3rem;
+        font-weight: 600;
+        color: $color-primary; }
+      
+  
+    }

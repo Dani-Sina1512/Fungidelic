@@ -8,12 +8,12 @@
     <title>Fungidelic</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="shortcut icon" href="../imagenes/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../recursos/favicon.png" type="image/x-icon">
 </head>
 <body>
     <header class="header">
         <div class="left-header">
-            <a href ="../index.html"><img class="logo animate__animated animate__bounce" src="../imagenes/logo.png"></a>
+            <a href ="../index.html"><img class="logo animate__animated animate__bounce" src="../recursos/logo.png"></a>
         </div>
         <div class="right-header">
             <nav class="navbar navbar-expand-lg">
@@ -40,8 +40,8 @@
                             </li>                    
                         </ul>
                         <form class="d-flex" role="search">
-                        <input class="form-control me-2 index__buscar" type="search" aria-label="Search">
-                        <button class="btn btn-outline-success index__buscar" type="submit">Buscar</button>
+                        <input class="navbar__search form-control me-2 index__buscar" type="search" aria-label="Search">
+                        <button class="navbar__btn btn btn-outline-success index__buscar" type="submit">Buscar</button>
                         </form>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                     <li class="contacto__item"><p class="contacto__leyenda">Contactános por cualquiera de nuestros canales:</p>
                     </li>
                     <li class="contacto__item">
-                        <img class="contacto__wsp" src="../imagenes/wsp.png" alt="">
+                        <img class="contacto__wsp" src="../recursos/wsp.png" alt="">
                         <h4 class="wsp__telefono">+54 9 11 3142-295</h4>      
                     </li>
                     <li class="contacto__item">
@@ -68,10 +68,10 @@
                     </li>
                     <li class="contacto__item">
                         <ul class="contacto__redes">    
-                            <li><a href="https://www.facebook.com/fungidelic.ar"><img src="../imagenes/fb.png"></a></li>
-                            <li><a href="https://www.instagram.com/accounts/login/?next=/Fungidelic.com.ar/"><img src="../imagenes/ig.png"></a></li>
-                            <li><a href="https://www.youtube.com/channel/UC17POExoGN2J18_R2dxZjIg"><img src="../imagenes/youtube.png"></a></li>
-                            <li><a href="https://www.tiktok.com/@fungidelic.ar"><img src="../imagenes/tiktok.png"></a></li>
+                            <li><a href="https://www.facebook.com/fungidelic.ar"><img src="../recursos/fb.png"></a></li>
+                            <li><a href="https://www.instagram.com/accounts/login/?next=/Fungidelic.com.ar/"><img src="../recursos/ig.png"></a></li>
+                            <li><a href="https://www.youtube.com/channel/UC17POExoGN2J18_R2dxZjIg"><img src="../recursos/youtube.png"></a></li>
+                            <li><a href="https://www.tiktok.com/@fungidelic.ar"><img src="../recursos/tiktok.png"></a></li>
                         </ul>    
                     </li>
                 </ul>
@@ -98,71 +98,72 @@
         
     </main>
       
+          
     <footer class="footer">
         <div class="upper-footer">
-            <ul class="upper__footer__lista">
-                <li class="upper__footer__item">
-                    <img class="upper__footer__imagen" src="../imagenes/envios.png" alt="">
-                    <div class="upper__footer__leyenda">
-                         <h4>Enviamos tu compra</h4>
-                         <h5>Entregas a todo el país</h5>
+            <ul class="upper-footer__lista">
+                <li class="upper-footer__lista__item">
+                    <img class="upper-footer__lista__item__imagen" src="../recursos/envios.png" alt="">
+                    <div class="upper-footer__lista__item__leyenda">
+                       <h4>Enviamos tu compra</h4>
+                       <h5>Entregas a todo el país</h5>
                     </div>
                 </li>
-                <li class="upper__footer__item">
-                    <img class="upper__footer__imagen" src="../imagenes/card.png" alt="">
-                    <div class="upper__footer__leyenda">
-                        <h4>Pagá como quieras</h4>
-                        <h5>Tarjetas de crédito o débito</h5>
-                    </div>
+                <li class="upper-footer__lista__item">
+                     <img class="upper-footer__lista__item__imagen" src="../recursos/card.png" alt="">
+                      <div class="upper-footer__lista__item__leyenda">
+                          <h4>Pagá como quieras</h4>
+                          <h5>Tarjetas de crédito o débito</h5>
+                      </div>
                 </li>
-                <li class="upper__footer__item">
-                    <img class="upper__footer__imagen" class="upper__footer__imagen__lock" src="../imagenes/lock.png" alt="">
-                    <div class="upper__footer__leyenda">
-                        <h4>Compra con seguridad</h4>
-                        <h5>Tus datos siempre protegidos</h5>
-                    </div>
+                <li class="upper-footer__lista__item">
+                      <img class="upper-footer__lista__item__imagen" class="upper__footer__imagen__lock" src="../recursos/lock.png" alt="">
+                      <div class="upper-footer__lista__item__leyenda">
+                          <h4>Compra con seguridad</h4>
+                          <h5>Tus datos siempre protegidos</h5>
+                      </div>
                 </li>
             </ul>
         </div>
         <div class="lower-footer">
-            <div class="left-lower-footer">
+            <div class="lower-footer__left">
                 <nav class="nav">
-                <ul>    
-                    <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="../pages/productos.html">Productos</a></li>
-                    <li><a href="../pages/ofertas.html">Oferta</a></li>
-                    <li><a href="../pages/contacto.html">Contacto</a></li>
-                </ul>   
+                    <ul>    
+                        <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="../pages/productos.html">Productos</a></li>
+                        <li><a href="../pages/ofertas.html">Oferta</a></li>
+                        <li><a href="../pages/contacto.html">Contacto</a></li>
+                    </ul>   
                 </nav>   
             </div> 
             
-            <div class="center-lower-footer">
+            <div class="lower-footer__center">
                 <ul>
                     <li>
-                        <div class="center-lower-footer__teléfono"> 
-                            <div class="center-lower-footer__imagen"><img src="../imagenes/wspblanco.png" alt=""></div>
-                            <h5>+54 9 11 3142-2951</h5>
-                        </div>
+                      <div class="lower-footer__center__teléfono"> 
+                        <div class="lower-footer__center__imagen"><img src="../recursos/wspblanco.png" alt=""></div>
+                        <h5 class="lower-footer__center__teléfono__número">+54 9 11 3142-2951</h5>
+                      </div>
                     </li>
                     <li>
-                        <h6>® COPYRIGHT FUNGIDELIC.AR - 2022 Todos los derechos reservados</h6>
+                        <h6 class="lower-footer__center__copy">® COPYRIGHT FUNGIDELIC.AR - 2022 Todos los derechos reservados</h6>
                     </li>
                 </ul>  
             </div>
 
-            <div class="right-lower-footer">   
+            <div class="lower-footer__right">   
                 <nav class="redes">
                     <ul>    
-                        <li><a href="https://www.facebook.com/fungidelic.ar"><img src="../imagenes/fbblanco.png"/></a></li>
-                        <li><a href="https://www.instagram.com/accounts/login/?next=/Fungidelic.com.ar/"><img src="../imagenes/igblanco.png"/></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC17POExoGN2J18_R2dxZjIg"><img src="../imagenes/youtubeblanco.png"/></a></li>
-                        <li><a href="https://www.tiktok.com/@fungidelic.ar"><img src="../imagenes/tiktokblanco.png"/></a></li>
+                        <li><a href="https://www.facebook.com/fungidelic.ar"><img src="../recursos/fbblanco.png"/></a></li>
+                        <li><a href="https://www.instagram.com/accounts/login/?next=/Fungidelic.com.ar/"><img src="../recursos/igblanco.png"/></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC17POExoGN2J18_R2dxZjIg"><img src="../recursos/youtubeblanco.png"/></a></li>
+                        <li><a href="https://www.tiktok.com/@fungidelic.ar"><img src="../recursos/tiktokblanco.png"/></a></li>
                     </ul>    
                 </nav>
             </div> 
         </div>   
     </footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>        
+     
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
 </body>
 </html>
