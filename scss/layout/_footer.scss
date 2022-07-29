@@ -1,50 +1,42 @@
 .upper-footer {
+    @include flex (row,center,center);
     background-color: $color-secondary;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%; 
           &__lista {
+          @include flex (row,space-around,none);
           background-color: $color-secondary;
-          display: flex;
           width: 100%;
-          justify-content: space-around;
           padding: 1rem 2rem 0rem 2rem; 
             &__item  {
-              display: flex;
-              align-items: center; 
-              &__imagen {
+              @include flex (row,none,center);
+                &__imagen {
                 padding-right: 15px;
                 height: 40px;
                 width: 56px;
                 object-fit: scale-down; }
-              &__leyenda h4 {
-                color: $color-primary;
-                font-size: $font-medium; }
-              &__leyenda h5 {
+              &__leyenda h3 {
                 color: $color-primary;
                 font-size: $font-small; }
+              &__leyenda h4 {
+                color: $color-primary;
+                font-size: $font-xs; }
               }
           }
   }
   
   .lower-footer {
+    @include flex (row,space-between,center);
     background-color: $color-primary;
-    display: flex;
-    justify-content: space-between;
     padding: 2rem;
-    align-items: center; 
-      &__left nav ul li a {
+        &__left nav ul li a {
         color: $color-neutralLight; 
         &:hover {
         color:$color-secondary; }
         }
       &__center{
         &__teléfono {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-              &__número{
+        @include flex (row,center,center);
+            &__número{
             padding-left: 10px;
             padding-top: 20px;
             color: $color-neutralLight;
@@ -60,9 +52,7 @@
         }
         &__right{
             & nav ul {
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                @include flex (row,center,center);
                 height: 100%; 
                     & li{
                   list-style: none;

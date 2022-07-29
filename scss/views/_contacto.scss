@@ -1,9 +1,7 @@
 
 .contacto__main {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-      &__left{
+    @include flex (row,space-around,center);
+        &__left{
         max-width: max-content; }
       
       .contacto__titulo {
@@ -12,14 +10,12 @@
         padding: 40px 0px 0px 30px; }
   
       .contacto__items {
+          @include flex (row,space-around,flex-start);
           margin-top: 30px;
-          display: flex;
-          justify-content: space-around; 
-          align-items: flex-start;
-  
+           
           .contacto__item {
+            @include flex (row,none,none);
             list-style: none;
-            display: flex;
             margin-top: 20px;
   
             .contacto__leyenda {
@@ -34,7 +30,7 @@
             font-size: $font-small}
   
             .contacto__mail {
-              display: flex;
+              @include flex (row,none,none);
               height: 30px; }
             
             .contacto__mail__direccion {
@@ -43,8 +39,7 @@
             
             
             .contacto__redes {
-              display: flex;
-              align-items:center;
+              @include flex (row,center,none);
               margin-top: 20px; }
             
             .contacto__redes li {
@@ -63,13 +58,11 @@
     margin-bottom: 20px;
   
       .text-center {
+      @include flex (column,none,center);
       margin: 20px;
       border: 1px solid $color-accent !important;
       background-color: $color-accent !important;
       border-radius: 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       max-width: fit-content; }
   
       #defaultContactFormName {

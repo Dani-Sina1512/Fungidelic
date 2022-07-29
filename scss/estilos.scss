@@ -1,5 +1,6 @@
-@import 'utilidades/variables';
+@import 'utilities/variables';
 @import 'base/reset';
+@import 'utilities/operadores';
 @import 'layout/header';
 @import 'layout/footer';
 @import 'views/index';
@@ -7,4 +8,4 @@
 @import 'views/productos';
 @import 'views/ofertas';
 @import 'views/contacto';
-@import 'componentes/mediaqueries';
+@import 'components/mediaqueries';
