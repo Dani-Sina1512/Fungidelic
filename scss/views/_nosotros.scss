@@ -1,4 +1,5 @@
 .nosotros__main {
+
     text-align: center;
     padding: 4rem;
       &__titulo {
@@ -15,18 +16,34 @@
         padding: 1rem;
         color: $color-primary;
         font-weight: 600;
-        line-height: 50px;
+        line-height: 50px; }
+      &__imagenes{
+        @include flex (row,space-around,center)
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+          img{
+            margin: 1rem;
+
+          }
         }
-      }
+  }
   
   .nosotros__section {
     padding-bottom: 4rem;
     text-align: center;
       &__atributos {
         font-size: $font-small;
-        padding-top: 3rem;
+        padding-top: 1rem;
+        padding-bottom: 4rem;
         font-weight: 600;
-        color: $color-primary; }
+        color: $color-primary; 
+      &-titulo{
+        display: inline-block;
+        font-size: $font-medium;
+        font-weight: 600;
+        border-radius: 10px;
+        color: $color-accent; }
       
-  
-    }
+      }
+      
+  }

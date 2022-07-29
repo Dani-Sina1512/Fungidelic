@@ -1,86 +1,70 @@
 
 .contacto__main {
-    @include flex (row,space-around,center);
-        &__left{
-        max-width: max-content; }
-      
-      .contacto__titulo {
+                   
+      &__titulo {
         font-size: $font-size-title;
         color: $color-primary;
-        padding: 40px 0px 0px 30px; }
-  
-      .contacto__items {
-          @include flex (row,space-around,flex-start);
-          margin-top: 30px;
-           
-          .contacto__item {
-            @include flex (row,none,none);
-            list-style: none;
-            margin-top: 20px;
-  
-            .contacto__leyenda {
-              color: $color-primary;
-              font-size: $font-small; }
-  
-            
-            .wsp__telefono {
-            padding-top: 5px;
-            padding-left: 10px;
-            height: 20px; 
-            font-size: $font-small}
-  
-            .contacto__mail {
-              @include flex (row,none,none);
-              height: 30px; }
-            
-            .contacto__mail__direccion {
-              padding-top: 20px;
-              font-size: $font-small; }
-            
-            
-            .contacto__redes {
-              @include flex (row,center,none);
-              margin-top: 20px; }
-            
-            .contacto__redes li {
-              list-style: none;
-              padding-left: 10px; }
-            
-            }
-  
-        }
-  
-  }
-  
-  
-  .contacto__main__right {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  
-      .text-center {
-      @include flex (column,none,center);
+        margin: 30px;}
+
+}
+          
+.contacto__section{
+  @include flex (column,center,center);
+
+    &__up{
+      @include flex (row,space-around,center);
+      flex-wrap: wrap;
       margin: 20px;
-      border: 1px solid $color-accent !important;
-      background-color: $color-accent !important;
-      border-radius: 10px;
-      max-width: fit-content; }
-  
-      #defaultContactFormName {
-      width: 300px; }
-  
-      #defaultContactFormEmail {
-      width: 300px; }
-  
-      #exampleFormControlTextarea1 {
-      width: 300px; }
-  
-      #btsubmit {
-      background-color: $color-neutralLight !important;
-      border-color: $color-primary !important;
-      color:  $color-primary !important;
-  
-        &:hover {
-        background-color: $color-secondary; }
+
+      &__leyenda{
+        margin-left: 30px;
+      
+
+        &__title{
+        color: $color-primary;
+        margin-top: 30px;
+        font-size: $font-small;
         }
     }
+  }
+
+    &__down {
+      margin: 60px;
+      
+      &__title{
+        text-align: center;
+        color: $color-primary;
+        font-size: $font-medium;}
+            
+      .text-center {
+      @include flex (column,none,center);
+      margin-top: 30px;
+      border: 2px solid $color-primary;
+      border-radius: 10px;
+      max-width: fit-content; }
+
+      .form-control{
+        border: 1px solid $color-primary;
+        width: 400px;
+            &:hover{
+              box-shadow: 0 1px 8px 0 $color-primary;
+            }
+            &:focus{
+              box-shadow: 0 1px 8px 0 $color-accent;
+            }
+              
+      }
   
+       
+      .btn-form {
+      background-color: $color-primary;
+      border-color: $color-primary;
+      color:  $color-neutralLight;
+      font-weight: 600;
+  
+        &:hover {
+        background-color: $color-secondary; 
+        color: $color-primary;}
+        }
+    }
+  } 
