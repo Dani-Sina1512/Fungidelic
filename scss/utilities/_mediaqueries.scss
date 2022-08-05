@@ -2,8 +2,8 @@
 @media (min-width: 320px) and (max-width: 576px) {
     
     .logo{
-      width: 70px;
-      height: 70px;
+      width: 50px;
+      height: 50px;
     }
 
     .navbar-nav{
@@ -21,7 +21,16 @@
     .carousel{
         display:none;
     }
-  
+    
+    .main__image__title{
+      font-size: $font-medium;
+    } 
+    
+    
+    .bannerseparacion h2{
+      font-size: $font-medium;
+    }
+
     .section-aside {
         flex-wrap: wrap; }
 
@@ -96,9 +105,15 @@
       flex-wrap: wrap; }
 
      .contacto__section{
-      &__up{
+
+      &__left{
       flex-direction: column;
       align-items: center;
+      margin-bottom: 40px;
+
+        &__leyenda{
+          text-align: center;
+        }
 
       iframe{
         width: 300px;
@@ -106,7 +121,7 @@
 
       }
 
-      &__down{
+      &__right{
             
         &__title{
           font-size: $font-xs;
@@ -204,7 +219,7 @@ padding-bottom:20px;
 .ofertas__articulos {
 flex-wrap: wrap; }
 
-.contacto__section__up{
+.contacto__section__left{
   flex-direction: column;
   align-items: center;
   

@@ -1,19 +1,21 @@
 header {
-    @include flex (row,space-between,none);
+    @include flex (row,space-between,center);
     flex-wrap: nowrap;
     background-color: $color-primary;
-    padding-bottom: 20px;   
+    padding: 20px;
+      &__right{
+        @include flex (row,center,none);
+        width: 600px;
+       }   
 
     .logo {
-    height: 110px;
-    width: 110px;
-    margin: 1rem 0rem 0rem 2rem; }
+    height: 100px;
+    width: 100px;
+    }
 
     
     .navbar {
-    margin-left: 3rem;
-    margin-top: 2rem;
-    margin-right: 3rem; 
+    margin-left: 1rem;
 
       .container-fluid {
         @include flex (row,center,none);

@@ -1,6 +1,5 @@
 .nosotros__main {
-
-    text-align: center;
+     text-align: center;
     padding: 4rem;
       &__titulo {
         color: $color-accent;
@@ -31,6 +30,7 @@
   .nosotros__section {
     padding-bottom: 4rem;
     text-align: center;
+   
       &__atributos {
         font-size: $font-small;
         padding-top: 1rem;

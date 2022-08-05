@@ -1,4 +1,5 @@
 .productos__main {
+  
     @include flex (row, space-between, none);
     background-color: $color-base;
       &__titulo {

@@ -1,6 +1,6 @@
 
 .contacto__main {
-                   
+  margin: 30px;
       &__titulo {
         font-size: $font-size-title;
         color: $color-primary;
@@ -9,28 +9,26 @@
 }
           
 .contacto__section{
-  @include flex (column,center,center);
+  margin-bottom: 100px;
+  @include flex (row,space-around,space-around);
+  flex-wrap: wrap;
 
-    &__up{
-      @include flex (row,space-around,center);
-      flex-wrap: wrap;
-      margin: 20px;
-
-      &__leyenda{
-        margin-left: 30px;
+    &__left{
+      margin-top: 50px;
+      @include flex (column,flex-start,flex-start);
       
-
-        &__title{
+        &__leyenda__title{
         color: $color-primary;
         margin-top: 30px;
+        margin-bottom: 30px;
         font-size: $font-small;
         }
     }
-  }
+  
 
-    &__down {
-      margin: 60px;
-      
+    &__right {
+      margin: 20px;
+          
       &__title{
         text-align: center;
         color: $color-primary;
@@ -38,7 +36,6 @@
             
       .text-center {
       @include flex (column,none,center);
-      margin-top: 30px;
       border: 2px solid $color-primary;
       border-radius: 10px;
       max-width: fit-content; }
@@ -67,4 +64,4 @@
         color: $color-primary;}
         }
     }
-  } 
+  }
