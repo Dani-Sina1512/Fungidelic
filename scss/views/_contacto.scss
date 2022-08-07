@@ -1,27 +1,27 @@
 
-.contacto__main {
-  margin: 30px;
-      &__titulo {
+.contacto__main__titulo {
+        text-align: center;
+        padding: 30px;
         font-size: $font-size-title;
         color: $color-primary;
-        margin: 30px;}
-
 }
-          
+
+         
 .contacto__section{
-  margin-bottom: 100px;
+  padding-bottom: 100px;
   @include flex (row,space-around,space-around);
   flex-wrap: wrap;
 
     &__left{
       margin-top: 50px;
-      @include flex (column,flex-start,flex-start);
+      @include flex (column,center, center);
       
         &__leyenda__title{
         color: $color-primary;
         margin-top: 30px;
         margin-bottom: 30px;
         font-size: $font-small;
+        
         }
     }
   

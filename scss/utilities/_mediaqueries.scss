@@ -26,13 +26,12 @@
       font-size: $font-medium;
     } 
     
+    .section-aside {
+      flex-wrap: wrap; }
     
-    .bannerseparacion h2{
+    .banner_sections h2{
       font-size: $font-medium;
     }
-
-    .section-aside {
-        flex-wrap: wrap; }
 
     .section2__galeria{
     grid-template-columns: repeat(1, 1fr);}
@@ -90,15 +89,10 @@
     .nosotros__section{
       padding-right:10px;}
 
-    .productos__main{
-      flex-direction:column;
-      align-content: center;
-      padding-left: 10px;
-      padding-bottom:20px;
+    .productos__section{
+      grid-template-columns: repeat(1, 1fr);
+       
     }
-      
-    .productos__section {
-        grid-template-columns: repeat(1, 1fr);}
         
    
     .ofertas__articulos {
@@ -110,9 +104,11 @@
       flex-direction: column;
       align-items: center;
       margin-bottom: 40px;
-
+     
         &__leyenda{
           text-align: center;
+          margin: 20px;
+
         }
 
       iframe{
@@ -209,12 +205,7 @@ grid-template-columns: repeat(2, 1fr);}
 .productos__section {
 grid-template-columns: repeat(2, 1fr);}
   
-.productos__main{
-flex-direction:column;
-align-content: center;
-padding-left: 10px;
-padding-bottom:20px;
-}
+
   
 .ofertas__articulos {
 flex-wrap: wrap; }
@@ -222,9 +213,11 @@ flex-wrap: wrap; }
 .contacto__section__left{
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
   
   &__leyenda{
-    margin: 0px;
+    text-align: center;
+    margin: 10px;
     &__title{
       font-size: $font-xs;
     }

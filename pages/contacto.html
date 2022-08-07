@@ -16,6 +16,7 @@
     <title>Fungidelic - Contacto</title>
 </head>
 <body>
+    <!-- NAVEGACIÓN  -->
     <header class="header">
         <div class="left-header">
             <a href ="../index.html"><img class="logo animate__animated animate__bounce" src="../recursos/logo.png"></a>
@@ -58,82 +59,81 @@
             </nav>
         </div>
     </header>
-
-    <div class="btn-whatsapp animate__animated animate__shakeY animate__slower animate__repeat-10">
-        <a href="https://api.whatsapp.com/send?phone=5491154024285" target="_blank">
-        <img src="../recursos/wspflotante.png" alt="">
-        </a>
-    </div>
     
-    <main class="contacto__main">
+    <!-- MAIN -->
+    <main>
         
-        <div>
-        <h1 class="contacto__main__titulo">CONTACTO</h1>
-        </div>
-
-    </main>
+        <h1 class="contacto__main__titulo">CONTACTO</h1>  
     
-    <section>
-        <div class="contacto__section">
-            
-            <div class="contacto__section__left">
-                <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8337352244007!2d-58.46448049999999!3d-34.60836559999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9f88c73db8b%3A0xdfd2b1aa4ecba0d0!2sAv.%20Juan%20B.%20Justo%204563%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1659123603508!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-                <div class="contacto__section__left__leyenda">
-                    <h2 class="contacto__section__left__leyenda__title"> DÓNDE ESTAMOS </h2>
-                    <p class="contacto__section__left__leyenda__subtitle"> Av. Juan B Justo 4563. CABA</p>
-                    <h3 class="contacto__section__left__leyenda__title">HORARIOS</h3>
-                    <p class="contacto__section__left__leyenda__subtitle">Lunes a Viernes: 10:30 a 14:30 / 17:00 a 20:30
-                    Sábados: 11:00 a 14:30</p>
+        <section>
+            <div class="contacto__section">
+                
+                <!-- MAPA UBICACIÓN -->
+                <div class="contacto__section__left">
+                    <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8337352244007!2d-58.46448049999999!3d-34.60836559999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9f88c73db8b%3A0xdfd2b1aa4ecba0d0!2sAv.%20Juan%20B.%20Justo%204563%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1659123603508!5m2!1ses!2sar" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                    <div class="contacto__section__left__leyenda">
+                        <h2 class="contacto__section__left__leyenda__title"> DÓNDE ESTAMOS </h2>
+                        <p class="contacto__section__left__leyenda__subtitle"> Av. Juan B Justo 4563. CABA</p>
+                        <h3 class="contacto__section__left__leyenda__title">HORARIOS</h3>
+                        <p class="contacto__section__left__leyenda__subtitle">Lunes a Viernes: 10:30 a 14:30 / 17:00 a 20:30
+                        Sábados: 11:00 a 14:30</p>
 
-                </div>
+                    </div>
 
-            </div>  
+                </div>  
           
-
-            <div class="contacto__section__right">
-                <div>
+                <!-- FORMULARIO DE CONTACTO-->
+                <div class="contacto__section__right">
+    
                     <h2 class="contacto__section__right__title">¡ENVIANOS UN MENSAJE!</h2>
 
-                </div>
-            
-                <form class="text-center p-5" action="#!">
+                    <form class="text-center p-5" action="#!">
                         
-                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nombre">
+                        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nombre">
             
-                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4"  placeholder="E-mail">
+                        <input type="email" id="defaultContactFormEmail" class="form-control mb-4"  placeholder="E-mail">
             
                             
-                    <div class="form-group">
-                    <textarea class="form-control rounded-1" id="exampleFormControlTextarea1" rows="8" placeholder="Mensaje"></textarea>
-                    </div>
+                        <div class="form-group">
+                        <textarea class="form-control rounded-1" id="exampleFormControlTextarea1" rows="8" placeholder="Mensaje"></textarea>
+                        </div>
                         
-                    <button class="btn btn-block mt-4 btn-form" id="btsubmit" type="submit">Enviar</button>
+                        <button class="btn btn-block mt-4 btn-form" id="btsubmit" type="submit">Enviar</button>
             
-                </form> 
+                    </form> 
+                </div>
             </div>
+        </section>
+
+        <!-- ICONO WHATS APP FLOTANTE -->
+        <div class="btn-whatsapp animate__animated animate__shakeY animate__slower animate__repeat-10">
+            <a href="https://api.whatsapp.com/send?phone=5491154024285" target="_blank">
+            <img src="../recursos/wspflotante.png" alt="">
+            </a>
         </div>
-    </section>
       
+    </main>
           
+    <!-- FOOTER  -->
     <footer class="footer">
         <div class="upper-footer">
             <ul class="upper-footer__lista">
                 <li class="upper-footer__lista__item">
-                    <img class="upper-footer__lista__item__imagen" src="../recursos/envios.png" alt="">
+                    <img class="upper-footer__lista__item__imagen" src="../recursos/envios.png" alt="icono de camión de envios">
                     <div class="upper-footer__lista__item__leyenda">
                        <h3>Enviamos tu compra</h3>
                        <h4>Entregas a todo el país</h4>
                     </div>
                 </li>
                 <li class="upper-footer__lista__item">
-                     <img class="upper-footer__lista__item__imagen" src="../recursos/card.png" alt="">
+                     <img class="upper-footer__lista__item__imagen" src="../recursos/card.png" alt="icono de tarjeta para pago">
                       <div class="upper-footer__lista__item__leyenda">
                           <h3>Pagá como quieras</h3>
                           <h4>Tarjetas de crédito o débito</h4>
                       </div>
                 </li>
                 <li class="upper-footer__lista__item">
-                      <img class="upper-footer__lista__item__imagen" class="upper__footer__imagen__lock" src="../recursos/lock.png" alt="">
+                      <img class="upper-footer__lista__item__imagen" class="upper__footer__imagen__lock" src="../recursos/lock.png" alt="icono de página segura">
                       <div class="upper-footer__lista__item__leyenda">
                           <h3>Compra con seguridad</h3>
                           <h4>Tus datos siempre protegidos</h4>
@@ -156,10 +156,10 @@
             <div class="lower-footer__center">
                 <ul>
                     <li>
-                      <div class="lower-footer__center__teléfono"> 
-                        <div class="lower-footer__center__imagen"><img src="../recursos/wspblanco.png" alt=""></div>
+                      <a href="https://api.whatsapp.com/send?phone=5491154024285"><div class="lower-footer__center__teléfono"> 
+                        <div class="lower-footer__center__imagen"><img src="../recursos/wspblanco.png" alt="icono de whats app"></div>
                         <h5 class="lower-footer__center__teléfono__número">+54 9 11 3142-2951</h5>
-                      </div>
+                      </div></a>
                     </li>
                     <li>
                         <h6 class="lower-footer__center__copy">® COPYRIGHT FUNGIDELIC.AR - 2022 Todos los derechos reservados</h6>
@@ -179,7 +179,8 @@
             </div> 
         </div>   
     </footer>
-     
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
+
+    <!-- JavaScript Bundle with Popper  --> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
 </body>
 </html>
