@@ -39,7 +39,7 @@
                                 <a class="nav-link active" aria-current="page" href="../pages/productos.html">Productos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../pages/ofertas.html">Ofertas</a>
+                                <a class="nav-link active" aria-current="page" href="../pages/blog.html">Blog</a>
                             </li> 
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
@@ -52,7 +52,7 @@
                         </ul>
                         <form class="d-flex" role="search">
                         <input class="navbar__search form-control me-2 index__buscar" type="search" aria-label="Search">
-                        <button class="navbar__btn btn btn-outline-success index__buscar" type="submit">Buscar</button>
+                        <button class="navbar__btn btn index__buscar" type="submit">Buscar</button>
                         </form>
                     </div>
                 </div>
@@ -61,16 +61,18 @@
     </header>
 
     <!-- MAIN  -->
-    <main>
-        
-        <h1 class="productos__main__titulo">PRODUCTOS</h1>
-                   
+    <main class="productos__main">
+        <div class="productos__banner">
+            <a href="pages/productos.html"><img src="../recursos/banneroferta.jpg" class="d-block w-100" alt="banner1. Cultiva tus propios hongos"></a>
+        </div>
+        <h1 class="productos__main__titulo">Nuestros productos</h1>
+
         <!-- CARDS PRODUCTOS -->
         <section class="productos__section">
                 <article class="producto">
                         <ul class="producto__card">
                             <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/kit.jpg" alt="kit fructificadora"></a></li>
-                            <li><p class="producto__titulo">Kit fructificadora</p></li>
+                            <li><p class="producto__titulo">Kit fructificadora 160gr.</p></li>
                             <li><p class="producto__precio">$9.000</p></li>
                             <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
                         </ul>
@@ -78,7 +80,7 @@
                 
                 <article class="producto">
                         <ul class="producto__card">
-                            <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/kitmicrodosing.jpg" alt="kit microdosing"></a></li>
+                            <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/kit2.jpg" alt="kit microdosing"></a></li>
                             <li><p class="producto__titulo">Kit microdosing L</p></li>
                             <li><p class="producto__precio">$6.500</p></li>
                             <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
@@ -87,53 +89,118 @@
                 </article>
                 <article class="producto">
                         <ul class="producto__card">
-                            <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/filtro.jpg" alt="filtro de ventilación"></a></li>
-                            <li><p class="producto__titulo">Filtro de ventilación</p></li>
-                            <li><p class="producto__precio">$800</p></li>
+                            <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/insumosdecultivo.jpg" alt="filtro de ventilación"></a></li>
+                            <li><p class="producto__titulo">Kit de sustratos</p></li>
+                            <li><p class="producto__precio">$2.800</p></li>
                             <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
                         </ul> 
                 </article>
                 <article class="producto">
                         <ul class="producto__card">
-                            <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/frasco.jpg" alt="frasco de grano"></a></li>
-                            <li><p class="producto__titulo">Frasco de grano</p></li>
-                            <li><p class="producto__precio">$1.200</p></li>
+                            <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/ecokit.jpg" alt="frasco de grano"></a></li>
+                            <li><p class="producto__titulo">Eco Kit 60gr.</p></li>
+                            <li><p class="producto__precio">$4.200</p></li>
                             <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
                         </ul>
                 </article>
                 <article class="producto">
                         <ul class="producto__card">
-                            <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/silica.jpg" alt="sílica"></a></li>
-                            <li><p class="producto__titulo">Sílica</p></li>
-                            <li><p class="producto__precio">$400</p></li>
+                            <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/mantacalefactora.jpg" alt="sílica"></a></li>
+                            <li><p class="producto__titulo">Manta calefactora</p></li>
+                            <li><p class="producto__precio">$1.700</p></li>
                             <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
                         </ul>
                 </article>
                 <article class="producto">
                         <ul class="producto__card">
-                            <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/otrosproductos.jpg" alt="desecador de sílica"></a></li>
-                            <li><p class="producto__titulo">Desecador de sílica</p></li>
-                            <li><p class="producto__precio">$800</p></li>
+                            <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/termómetrodigital.jpg" alt="desecador de sílica"></a></li>
+                            <li><p class="producto__titulo">Termómetro digital LCD</p></li>
+                            <li><p class="producto__precio">$1.800</p></li>
                             <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
                         </ul>
                 </article>
                 <article class="producto">
                         <ul class="producto__card">
-                            <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/insumosdecultivo.jpg" alt="sustratos"></a></li>
-                            <li><p class="producto__titulo">Sustratos</p></li>
-                            <li><p class="producto__precio">$750</p></li>
+                            <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/termohigrómetro.jpg" alt="sustratos"></a></li>
+                            <li><p class="producto__titulo">Termohigrómetro Digital LCD</p></li>
+                            <li><p class="producto__precio">$4.650</p></li>
                             <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
                         </ul>
                 </article>
                 <article class="producto">
                         <ul class="producto__card">
                             <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/capsulasparamicrodosis.jpg" alt="cápsulas para microdosis"></a></li>
-                            <li><p class="producto__titulo">Cápsulas</p></li>
-                            <li><p class="producto__precio">$450</p></li>
+                            <li><p class="producto__titulo">Cápsulas 150gr.</p></li>
+                            <li><p class="producto__precio">$750</p></li>
                             <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
                         </ul>
-                </article>       
-        </section>    
+                </article>   
+                <article class="producto">
+                    <ul class="producto__card">
+                        <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/coladepavo.jpg" alt="frasco de grano"></a></li>
+                        <li><p class="producto__titulo">Cola de pavo 30 gr.</p></li>
+                        <li><p class="producto__precio">$3.500</p></li>
+                        <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
+                    </ul>
+                </article>
+                <article class="producto">
+                    <ul class="producto__card">
+                        <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/cordyceps-militaris.jpg" alt="sílica"></a></li>
+                        <li><p class="producto__titulo">Militaris 30gr.</p></li>
+                        <li><p class="producto__precio">$3.500</p></li>
+                        <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
+                    </ul>
+                </article>
+                <article class="producto">
+                    <ul class="producto__card">
+                        <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/reishi.jpg" alt="desecador de sílica"></a></li>
+                        <li><p class="producto__titulo">Reishi 30gr.</p></li>
+                        <li><p class="producto__precio">$3.500</p></li>
+                        <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
+                    </ul>
+                </article>
+                <article class="producto">
+                    <ul class="producto__card">
+                        <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/melenadeleón.jpg" alt="sustratos"></a></li>
+                        <li><p class="producto__titulo">Melena de León 30gr.</p></li>
+                        <li><p class="producto__precio">$3.500</p></li>
+                        <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
+                    </ul>
+                </article>    
+                <article class="producto">
+                <ul class="producto__card">
+                    <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/albinovialdeesporas.jpg" alt="sustratos"></a></li>
+                    <li><p class="producto__titulo">Alvino - Vial de esporas 10ml.</p></li>
+                    <li><p class="producto__precio">$2.450</p></li>
+                    <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
+                </ul>
+                </article>
+                <article class="producto">
+                <ul class="producto__card">
+                    <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/amazonianvialdeesporas.jpg" alt="cápsulas para microdosis"></a></li>
+                    <li><p class="producto__titulo">Amazonia - Vial de esporas 10ml.</p></li>
+                    <li><p class="producto__precio">$1.750</p></li>
+                    <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
+                </ul>
+                </article>   
+                <article class="producto">
+                <ul class="producto__card">
+                <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/ecuadorvialdeesporas.jpg" alt="frasco de grano"></a></li>
+                <li><p class="producto__titulo">Ecuador - Vial de esporas 10ml.</p></li>
+                <li><p class="producto__precio">$2.730</p></li>
+                <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
+                </ul>
+                </article>
+                <article class="producto">
+                <ul class="producto__card">
+                <li><a href="../pages/productos.html"><img class="producto__imagen" src="../recursos/pesvialdeesporas.jpg" alt="sílica"></a></li>
+                <li><p class="producto__titulo">PES - Vial de esporas 10ml.</p></li>
+                <li><p class="producto__precio">$5.400</p></li>
+                <li><a class="producto__comprar" href="../pages/productos.html"><p>AGREGAR AL CARRITO</p></a></li>
+                </ul>
+                </article>
+               
+            </section>    
     
         <!-- ICONO WHATS APP FLOTANTE -->
         <div class="btn-whatsapp animate__animated animate__shakeY animate__slower animate__repeat-10">

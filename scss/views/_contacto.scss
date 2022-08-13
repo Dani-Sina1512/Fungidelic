@@ -4,6 +4,7 @@
         padding: 30px;
         font-size: $font-size-title;
         color: $color-primary;
+        font-weight: 600;
 }
 
          
@@ -16,12 +17,17 @@
       margin-top: 50px;
       @include flex (column,center, center);
       
-        &__leyenda__title{
-        color: $color-primary;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        font-size: $font-small;
-        
+        &__leyenda{
+          &__title{
+          color: $color-accent;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          font-size: $font-small;
+          font-weight: 600;}
+          &__subtitle{
+            color: $color-primary;
+            font-weight: 600;
+           }
         }
     }
   
@@ -30,12 +36,38 @@
       margin: 20px;
           
       &__title{
+        font-weight: 600;
         text-align: center;
         color: $color-primary;
         font-size: $font-medium;}
+
+      &__redes{
+        @include flex (column,center,center);
+        padding-right: 1rem;
+        &__titulo{
+          
+          text-align: center;
+          color: $color-accent;
+          font-size: $font-small;
+          padding-top: 2rem;
+          padding-bottom: 3rem;
+          font-weight: 600;
+          
+        }
+
+        &__lista{
+          @include flex (row,center,none);
+          padding-right: 1,5rem;
+                   
+          &__item{
+            padding: 10px;
+          }
+        }
+      }
             
       .text-center {
       @include flex (column,none,center);
+      background-color: $color-neutralLight;
       border: 2px solid $color-primary;
       border-radius: 10px;
       max-width: fit-content; }

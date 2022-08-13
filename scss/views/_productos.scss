@@ -1,4 +1,4 @@
-main{
+.productos__main{
   background-color: $color-base;}
 
   .producto{
@@ -8,16 +8,20 @@ main{
 
   .productos__main__titulo {
       text-align: center;
+      letter-spacing: normal;
       font-size: $font-size-title;
       color: $color-primary;
-      padding: 40px 20px 0px 40px; }
+      font-weight: 600;
+      padding: 60px 60px 30px 60px;}
+
+ 
   
   .productos__section {
-    padding: 7rem 4rem 4rem 4rem;
+    padding: 3rem 4rem 4rem 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 30px 30px;}
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 40px 40px;}
     
     
   

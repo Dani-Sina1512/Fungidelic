@@ -1,0 +1,43 @@
+.blog{
+ height: 100%;
+
+        
+    &__titulo {
+    text-align: center;
+    font-size: $font-size-title;
+    color: $color-primary;
+    padding: 40px;
+    font-weight: 600; }
+    
+    &__articulos{
+      @include flex (row,space-around,center);
+      flex-wrap: wrap;
+      margin: 8px 8px 50px 8px;
+
+      .card {
+        border-color: $color-primary;
+        margin: 15px;
+      
+        .card-img-top{
+        height: 200px;
+        width: 270px;
+        }
+
+        .card-body{
+        @include flex (column,center,center);
+
+        }
+        .card-title{
+          color: $color-primary;
+          font-weight: 600;
+        }  
+        .card-text{
+          color: $color-primary;
+          text-align: center;
+        }
+    }
+    }
+  } 
+
+  
+  

@@ -39,7 +39,7 @@
                             <a class="nav-link active" aria-current="page" href="pages/productos.html">Productos</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="pages/ofertas.html">Ofertas</a>
+                            <a class="nav-link active" aria-current="page" href="pages/blog.html">Blog</a>
                           </li> 
                           <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="pages/contacto.html">Contacto</a>
@@ -52,7 +52,7 @@
                       </ul>
                       <form class="d-flex"  role="search">
                       <input class=" navbar__search form-control me-2 index__buscar" type="search" aria-label="Search">
-                      <button class="navbar__btn btn btn-outline-success index__buscar" type="submit">Buscar</button>
+                      <button class="navbar__btn btn index__buscar" type="submit">Buscar</button>
                       </form>
                   </div>
                 </div>
@@ -62,14 +62,14 @@
 
     
     <!-- MAIN  -->  
-    <main>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-interval="1">
+    <main class="index__main">
+        <div id="carouselExampleSlidesOnly" class="carousel slide carousel__banner" data-bs-ride="carousel" data-interval="1">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <a href="pages/productos.html"><img src="recursos/banner.jpg" class="d-block w-100" alt="banner1. Cultiva tus propios hongos"></a>
+                    <a href="pages/productos.html"><img src="recursos/banner.jpg" class="d-block w-100" alt="banner1. Cultiva tus propios hongos"></a>
               </div>
               <div class="carousel-item">
-                <a href="pages/productos.html"><img src="recursos/banner2.jpg" class="d-block w-100" alt="banner2. Sumergete en el mundo Fungi"></a>
+                    <a href="pages/productos.html"><img src="recursos/banner2.jpg" class="d-block w-100" alt="banner2. Sumergete en el mundo Fungi"></a>
               </div>
             </div>
         </div>    
@@ -79,14 +79,14 @@
         </div>
 
         <!-- PRIMERA SECCIÓN CARDS CATEGORÍAS DE PRODUCTOS --> 
-        <div class="section-aside">
-            <section class="articulos">
+        <section class="section-oferta">
+            <div class="articulos">
                 <article class="article">
                     <div class="card" style="width: 18rem;">
                         <a href="pages/productos.html"><img src="recursos/kit.jpg" class="card-img-top" alt=" kit">
                           <div class="card__body">
-                            <h2 class="card__body__title">KITS</h2>
-                            <p class="card__body__text">Kit fructificadora y microdosing</p>
+                                <h2 class="card__body__title">KITS</h2>
+                                <p class="card__body__text">Kit fructificadora y microdosing</p>
                           </div>
                         </a>
                     </div>
@@ -96,8 +96,8 @@
                     <div class="card" style="width: 18rem;">
                         <a href="pages/productos.html"><img src="recursos/insumosdecultivo.jpg" class="card-img-top" alt="insumos de cultivo">
                           <div class="card__body">
-                            <h2 class="card__body__title">INSUMOS DE CULTIVO</h2>
-                            <p class="card__body__text">Sílica, filtros y sustratos</p>
+                                <h2 class="card__body__title">INSUMOS DE CULTIVO</h2>
+                                <p class="card__body__text">Sílica, filtros y sustratos</p>
                           </div>
                         </a>  
                     </div>
@@ -106,70 +106,96 @@
                 
                 <article class="article">
                     <div class="card" style="width: 18rem;">
-                        <a href="pages/productos.html"><img src="recursos/otrosproductos.jpg" class="card-img-top" alt="desecador de sílica">
+                        <a href="pages/productos.html"><img src="recursos/melenadeleón.jpg" class="card-img-top" alt="desecador de sílica">
                           <div class="card__body">
-                            <h2 class="card__body__title">OTROS PRODUCTOS</h2>
-                            <p class="card__body__text">Frascos, cápsulas, desecadores</p>
+                                <h2 class="card__body__title">OTROS PRODUCTOS</h2>
+                                <p class="card__body__text">Extractos medicinales y esporas</p>
                           </div>
                         </a>  
                     </div>    
             
                 </article>    
                 
-            </section>
+            </div>
             
-            <!-- ASIDE OFERTA --> 
-            <aside class="aside">
-                <div class="producto8 animate__animated animate__pulse animate__infinite	infinite">
+            <!-- OFERTA --> 
+            <div class="producto8 animate__animated animate__pulse animate__infinite infinite">
                     <ul class="producto__card index__oferta">
-                        <h2 class="index__oferta__titulo">OFERTA</h2>
-                        <a href="pages/ofertas.html"><img class="producto__imagen" src="recursos/capsulasparamicrodosis.jpg" alt="cápsulas para microdosis"></a>
-                        <p class="producto__titulo">Cápsulas</p>
-                        <p class="producto__precio">$450</p>
-                        <a class="producto__comprar" href="pages/productos.html"><p>AGREGAR AL CARRITO<p></a>
+                        <li><h2 class="index__oferta__titulo">OFERTA</h2></li>
+                        <li><a href="pages/ofertas.html"><img class="producto__imagen" src="recursos/capsulasparamicrodosis.jpg" alt="cápsulas para microdosis"></a></li>
+                        <li><p class="producto__titulo">Cápsulas 150gr.</p></li>
+                        <li><p class="producto__precio">$750</p></li>
+                        <li><a class="producto__comprar" href="pages/productos.html"><p>AGREGAR AL CARRITO<p></a></li>
                     </ul>
-                </div>
-            </aside>
+               
+            </div>
     
-        </div>
+        </section>
     
         <div class="banner_sections">  
             <h2> Conocé más sobre este mundo mágico</h2>
         </div>    
-        
-        <!-- SEGUNDA SECCIÓN GALERIA --> 
-        <section class="section2">
-            <div class="section2__galeria">
-                <a href="https://www.instagram.com/p/CdrlGp_rbt5/?igshid=YmMyMTA2M2Y="><div class="galeria__elemento1"><img src="recursos/galeria1.jpg" alt=""></div></a>
-                <a href="https://www.instagram.com/p/CehfIn0Lspi/?igshid=YmMyMTA2M2Y="><div class="galeria__ elemento2 "><img src="recursos/galeria2.jpg" alt=""></div></a>
-                <a href="https://www.instagram.com/fungidelic.com.ar"><div class="galeria__elemento3"><img src="recursos/galeria3.jpg" alt=""></div></a>
-                <a href="https://www.instagram.com/fungidelic.com.ar"><div class="galeria__elemento4"><img src="recursos/galeria4.jpg" alt=""></div></a>
-                <a href="https://www.instagram.com/p/CdY4c7BMgW6/?igshid=YmMyMTA2M2Y="><div class="galeria__elemento5"><img src="recursos/galeria5.jpg" alt=""></div></a>
-                <a href="https://www.instagram.com/p/CdrlGp_rbt5/?igshid=YmMyMTA2M2Y="><div class="galeria__elemento6"><img src="recursos/galeria6.jpg" alt=""></div></a>
-                <a href="https://www.instagram.com/fungidelic.com.ar"><div class="galeria__elemento7"><img src="recursos/galeria7.jpg" alt=""></div></a>
-                <a href="https://www.instagram.com/fungidelic.com.ar"><div class="galeria__elemento8"><img src="recursos/galeria8.jpg" alt=""></div></a>
-            </div>
+
+         <!-- SEGUNDA SECCIÓN GALERIA --> 
+        <section class="galeria">
+            <div class="galeria__elemento1 zoom"><a href="pages/productos.html"><img class="galeria__imagen" src="recursos/galeria1.jpg" alt=""></a></div>
+            <div class="galeria__elemento2 zoom"><a href="pages/productos.html"><img class="galeria__imagen" src="recursos/galeria2.jpg" alt=""></a></div>
+            <div class="galeria__elemento3 zoom"><a href="pages/productos.html"><img class="galeria__imagen" src="recursos/galeria3.jpg" alt=""></a></div>
+            <div class="galeria__elemento4 zoom"><a href="pages/productos.html"><img class="galeria__imagen" src="recursos/galeria4.jpg" alt=""></a></div>
         </section>
-        
+
+
         <!-- TERCERA SECCIÓN VIDEOS --> 
         <section class="section3">
-            <div class="section3__video"><iframe class="videoyt" width="420" height="315" src="https://www.youtube.com/embed/oiN9rE8BsS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="section3__video"><iframe class="videoyt" width="480" height="315" src="https://www.youtube.com/embed/oiN9rE8BsS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="section3__video"><iframe class="videoyt" width="420" height="315" src="https://www.youtube.com/embed/hrPbFUhMucI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="section3__video"><iframe class="videoyt" width="480" height="315" src="https://www.youtube.com/embed/hrPbFUhMucI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
         
-        <!-- ICONO WHATS APP FLOTANTE -->
-        <div class="btn-whatsapp animate__animated animate__shakeY animate__slower animate__repeat-20">
+       
+        <!-- TESTIMONIOS-->
+        <h2 class="testimonio__titulo">Nuestros clientes</h2>
+        <div id="carouselExampleControls" class="carousel slide carousel-dark carousel__container" data-bs-ride="carousel">
+            <div class="carousel-inner testimonio__container">
+                <div class="carousel-item active testimonio__box">
+                    <img class="testimonio__imagen" src="recursos/testimonio.png" alt="hombre con anteojos">
+                    <h2 class="testimonio__nombre">Juan Manuel</h2>
+                    <p class="testimonio__leyenda">Me guiaron durante todo el proceso y respondieron mis dudas. Si seguís los pasos, no falla!
+                    </p>
+                </div>
+                <div class="carousel-item testimonio__box">
+                    <img class="testimonio__imagen" src="recursos/testimonio1.png" alt="mujer sonriente">
+                    <h2 class="testimonio__nombre">Maria Laura</h2>
+                    <p class="testimonio__leyenda">Me encantó el kit. ¡En menos de 50 días ya tengo mi producción! </p>
+                </div>
+                <div class="carousel-item testimonio__box">
+                    <img class="testimonio__imagen" src="recursos/testimonio2.png" alt="hombre mirando celular">
+                    <h2 class="testimonio__nombre">Matías</h2>
+                    <p class="testimonio__leyenda">Recomendado 100%. Aprendes y cultivas. Dan acompañamiento por Telegram.</p>
+                    
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+         <!-- ICONO WHATS APP FLOTANTE -->
+         <div class="btn-whatsapp animate__animated animate__shakeY animate__slower animate__repeat-20">
             <a href="https://api.whatsapp.com/send?phone=5491154024285" target="_blank">
             <img src="recursos/wspflotante.png" alt="icono de whatsapp flotante">
             </a>
         </div>
 
     </main>
-
-  
- 
 
     <!-- FOOTER  -->
     <footer class="footer">

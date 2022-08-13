@@ -43,20 +43,7 @@ header {
           }
       }  
       
-      
-      
-      &__btn {
-      color: $color-primary;
-      font-weight: 600;
-      border-color: $color-primary; 
-          &:hover {
-          background-color: $color-secondary;
-          border-color: $color-primary; 
-          color: $color-primary;}
-          &:focus {
-            display:none; }
-      }
-    
+                
       &__search {
         border-color: $color-primary;
         width: 150px;
