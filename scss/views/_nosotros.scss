@@ -3,7 +3,8 @@
      padding: 2rem;
       &__titulo {
         color: $color-accent;
-        padding: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         font-size: $font-size-title;
         font-weight: 600; }
       &__subtitulo {
@@ -34,19 +35,20 @@
   margin-top: 20px;
 
       .card{
+      width: 500px;
+      height: 300px;
       border: none;
       @include flex (row,space-around,center)
       margin-left: 10px;
       margin-bottom: 10px;
-      
-        
+       
         .card-img-top{
           width: 150px;
           height: 150px;
         }
 
         .card-body{
-          @include flex (column,center,center)  
+         @include flex (column,center,center)  
         
           .card-title{
           color: $color-accent;
@@ -56,16 +58,13 @@
           }
 
           .card-text{
-            padding-top: 10px;
-            color: $color-primary;
-            font-size: $font-xs;
-            text-align: center;
-
+          padding-top: 10px;
+          color: $color-primary;
+          font-size: $font-xs;
+          text-align: center;
           }
         }
       }
-
   }
-
 }  
  

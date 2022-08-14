@@ -16,10 +16,10 @@
                 height: 40px;
                 width: 56px;
                 object-fit: scale-down; }
-              &__leyenda h3 {
+                &__leyenda h3 {
                 color: $color-primary;
                 font-size: $font-small; }
-              &__leyenda h4 {
+                &__leyenda h4 {
                 color: $color-primary;
                 font-size: $font-xs; }
               }
@@ -35,23 +35,25 @@
         &:hover {
         color:$color-secondary; }
         }
-      &__center{
-        &__teléfono {
-        @include flex (row,center,center);
-            &__número{
-            padding-left: 10px;
-            padding-top: 20px;
-            color: $color-neutralLight;
-            margin-bottom: 20px;
-            font-size: $font-small;
-            }
+        
+        &__center{
+          &__teléfono {
+            @include flex (row,center,center);
+              &__número{
+              padding-left: 10px;
+              padding-top: 20px;
+              color: $color-neutralLight;
+              margin-bottom: 20px;
+              font-size: $font-small;}
           }
-        &__copy {
-        padding-top: 20px;
-        color: $color-neutralLight;
-        font-size: $font-xs; }  
+          
+          &__copy {
+          padding-top: 20px;
+          color: $color-neutralLight;
+          font-size: $font-xs; }  
   
         }
+          
         &__right{
             & nav ul {
                 @include flex (row,center,center);
@@ -59,11 +61,8 @@
                     & li{
                   list-style: none;
                   padding-left: 15px; }
-                }
-
-
-
+            }
         }
-      }
+}
   
   

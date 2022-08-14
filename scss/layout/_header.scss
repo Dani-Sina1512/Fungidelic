@@ -7,13 +7,11 @@ header {
     padding: 20px;
       &__right{
         @include flex (row,center,none);
-        width: 600px;
-       }   
+        width: 600px;}   
 
     .logo {
     height: 100px;
-    width: 100px;
-    }
+    width: 100px;}
 
     
     .navbar {
@@ -24,12 +22,10 @@ header {
         border-radius: 10px;
         background-color: $color-neutralLight;
         padding: 5px; 
-      
       }
             
       .navbar-nav{
         text-align:center;
-      
     
           .nav-link {
           color: $color-primary;
@@ -37,13 +33,12 @@ header {
           font-weight: 600;
           margin-right: 10px; 
             
-              &:hover{
+             &:hover{
               background-color: $color-secondary;
               border-radius: 10px; }
           }
       }  
-      
-                
+                  
       &__search {
         border-color: $color-primary;
         width: 150px;
@@ -53,9 +48,8 @@ header {
             border-color: $color-primary;
             transition: 0.3s; }
       }
-    }
-    
-  }
+    }  
+}
 
 
        

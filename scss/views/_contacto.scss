@@ -6,8 +6,7 @@
         color: $color-primary;
         font-weight: 600;
 }
-
-         
+       
 .contacto__section{
   padding-bottom: 100px;
   @include flex (row,space-around,space-around);
@@ -45,14 +44,12 @@
         @include flex (column,center,center);
         padding-right: 1rem;
         &__titulo{
-          
           text-align: center;
           color: $color-accent;
           font-size: $font-small;
           padding-top: 2rem;
           padding-bottom: 3rem;
-          font-weight: 600;
-          
+          font-weight: 600;          
         }
 
         &__lista{
@@ -67,7 +64,7 @@
             
       .text-center {
       @include flex (column,none,center);
-      background-color: $color-neutralLight;
+      background-color: #F3F6F6;
       border: 2px solid $color-primary;
       border-radius: 10px;
       max-width: fit-content; }

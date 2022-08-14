@@ -1,7 +1,6 @@
 .blog{
  height: 100%;
-
-        
+    
     &__titulo {
     text-align: center;
     font-size: $font-size-title;
@@ -18,26 +17,27 @@
         border-color: $color-primary;
         margin: 15px;
       
-        .card-img-top{
-        height: 200px;
-        width: 270px;
-        }
+          .card-img-top{
+          height: 200px;
+          width: 270px;
+          }
 
-        .card-body{
-        @include flex (column,center,center);
-
-        }
-        .card-title{
+          .card-body{
+          @include flex (column,center,center);
+          }
+        
+          .card-title{
           color: $color-primary;
           font-weight: 600;
-        }  
-        .card-text{
+          }  
+          
+          .card-text{
           color: $color-primary;
           text-align: center;
+          }
         }
     }
-    }
-  } 
+} 
 
   
   
