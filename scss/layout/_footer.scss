@@ -29,7 +29,7 @@
   .lower-footer {
     @include flex (row,space-between,center);
     background-color: $color-primary;
-    padding: 2rem;
+    padding: 1.5rem;
         &__left nav ul li a {
         color: $color-neutralLight; 
         &:hover {

@@ -7,12 +7,27 @@
 <img src="recursos/imagenreadme2.jpg">
 <img src="recursos/imagenreadme3.jpg">
 
+<h2>Estructura</h2>
+<ol>
+<li>Index: Incluye categorías de productos, banners publicitarios, ofertas y videos instructivos de autocultivo de hongos.</li>
+
+<li>Nosotros: Página que contiene información sobre la empresa y detalla los productos y servicios que se brindan.</li>
+
+<li>Productos: Listado de Cards de productos</li>
+
+<li>Blog: Contiene artículos de interés y actualidad sobre el autocultivo de hongos.</li>
+
+<li>Contacto: Página con mapa de ubicación de la tienda física, redes sociales y formulario de contacto.</li>
+</ol>
+
+
 <h2>Tecnologías utilizadas</h2>
 
 <ol>
 <li>Html 5</li>
 <li>Css 3</li>
-<li>Librería: Bootstrap</li>
+<li>Scss</li>
+<li>Librerías: Bootstrap y Animate.css</li>
 </ol>
 
 <h2>Autora</h2>

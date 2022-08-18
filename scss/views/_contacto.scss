@@ -8,7 +8,7 @@
 }
        
 .contacto__section{
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   @include flex (row,space-around,space-around);
   flex-wrap: wrap;
 
@@ -17,7 +17,11 @@
       @include flex (column,center, center);
       
         &__leyenda{
+          text-align: center;
+
           &__title{
+          padding-right: 20px;
+          padding-left: 20px;          
           color: $color-accent;
           margin-top: 30px;
           margin-bottom: 30px;
@@ -25,6 +29,8 @@
           font-weight: 600;}
           &__subtitle{
             color: $color-primary;
+            padding-right: 20px;
+            padding-left: 20px;  
             font-weight: 600;
            }
         }

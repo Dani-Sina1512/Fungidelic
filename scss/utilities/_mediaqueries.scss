@@ -180,12 +180,8 @@ flex-direction: column-reverse;
       flex-direction: column;
       align-items: center;
       margin-bottom: 40px;
-  }    
-     
-  &__leyenda{
-      text-align: center;
-      margin: 20px;
-  }
+   
+  } 
 
   iframe{
       width: 300px;
@@ -285,8 +281,7 @@ grid-template-columns: repeat(2, 1fr);}
   margin-bottom: 40px;
   
   &__leyenda{
-    text-align: center;
-    margin: 10px;
+        
     &__title{
       font-size: $font-xs;
     }
