@@ -26,7 +26,7 @@
     font-weight: 600;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   &__cards{
@@ -36,7 +36,7 @@
 
       .card{
       width: 500px;
-      height: 300px;
+      height: 250px;
       border: none;
       @include flex (row,space-around,center)
       margin-left: 10px;

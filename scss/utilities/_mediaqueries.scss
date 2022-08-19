@@ -123,11 +123,16 @@
 .lower-footer {
 flex-direction: column-reverse; 
 
+  &__center__contenedor{
+    padding-right: 20px;
+  }
+
   &__center__teléfono {
   padding-top: 10px; }
 
   &__center__copy{
-  font-size: 15px;}
+  font-size: 15px;
+  text-align: center;}
 
   &__left__nav{
   display:none;}
@@ -227,7 +232,7 @@ display: none;
 .section-oferta {
 flex-wrap: wrap; }
 
-  
+ 
 .upper-footer__lista {
           flex-direction: column;
           align-items: flex-start;
@@ -272,9 +277,8 @@ flex-wrap: wrap; }
         
 .productos__section {
 grid-template-columns: repeat(2, 1fr);}
-  
 
-  
+
 .contacto__section__left{
   flex-direction: column;
   align-items: center;

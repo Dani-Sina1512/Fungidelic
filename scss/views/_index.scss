@@ -170,23 +170,13 @@
       color: $color-primary;
       font-size: $font-large;
       text-align: center;
-      padding-bottom: 2rem;
       font-weight: 600;
     }
 
-    &__container{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: none;
-      height: 500px;             
-    }
-
     &__box{
-    margin-right: 0%;
-    width: 60%;
-    height: 500px;
-    text-align: center; 
+    @include flex (column,center,center);
+      height: 400px;
+      text-align: center;  
     }
 
     &__imagen{
@@ -203,7 +193,7 @@
 
     &__leyenda{
     text-align: center;
-    padding: 1rem;
+    padding: 20px 20px 20px 50px;
     color: $color-primary;
     font-size: $font-small;
     font-weight: 600;  
